@@ -1,0 +1,70 @@
+Variables
+
+Son nombres que se establecen con valores que vamos a querer usar en un futuro , generalmente se usa var, let o const, estos valores
+se asignan a un espacio en memoria que se guarda en la computadora; y su estructura es asi
+
+let 'nombre a utilizar' = 'valor'
+
+primero la palabra let,var o const, luego el nombre que se va a utilizar, este puede llegar a cambiar mas adelante cuando se le quiera reasignar un valor
+y puede terminar ahi como no, si solo queremos reservar el nombre y almacenar en memoria se lo deja como está , osea LET 'nombre' ;
+si queremos asignar un valor se procede a poner el signo igual  =  y el valor a asignar puede ser una letra, un numero, palabras , listas , etc.
+-
+
+Strings
+
+Las strings son las cadenas de letras o numeros que se mencionan entre comillas simple o dobles, usarlas sin comillas las convertiria en un valor,
+estas puede asignarse tambien en variables. 
+
+ejemplo:
+ 'ejemplo de string' 
+ "otro ejemplo de string" 
+
+-
+
+Funciones (argumentos, return)
+
+se utilizan para agrupar distintos tipos de mecanicas o calculos logicos que ayudan a distribuir mejor las tareas a desarrollar por el programador, 
+en su interior pueden llevar desde suma , restas , comparaciones hasta listas completas
+su estructura se conforma con la palabra reservada 'function' y luego un nombre que tiene que ser representativo sobre lo que hace especificamente 
+y en lo posible lo mas resumido que se pueda , este nombre tiene que tener la primer letra de cada palabra en mayuscula y sin espacios,
+luego entre parentesis () el argumento, osea lo que se va a tomar a evaluar,
+y luego entre llaves {} la logica que se aplicará y debera retornar 
+
+ejemplo:
+
+function ContarNumeros(num1,num2){
+    return num1 + num2;
+}
+
+-
+
+Declaraciones if(condicional if)
+
+Son aquellas que evaluan diferentes datos, es decir retorna true o false, y dependiendo esa respuesta hace o no hace algo,
+en el caso de no hacerlo en el principio lo hace luego en el ELSE IF o ELSE. 
+Se comienza con If (si) , luego ELSE(osino si) , y se termina en el ELSE (sino). 
+Su estructura es 
+
+if(argumento a evaluar){
+    return "calculo a realizar"
+}else if(otro argumento a evaluar){
+    return "otro calculo a realizar"
+}else{
+    return "aca se da por sentado que en las otras dos no logro evaluarlo y retorna algo generalizado"
+}
+
+-
+
+Valores booleanos (true, false)
+
+Los valores booleanos son dos true o false , en español verdado o falso, y son respuestas tomadas como logicas por javascript.
+Se toman de manera que respondan a una cuestion, si 2 es mayor que 3 responderia false, en caso contrario retornaria true.
+Son las bases de la logica entro de las condicionales del IF.
+
+ejemplo:
+
+2>3 = false
+2<3 = true 
+
+-
+
