@@ -26,13 +26,14 @@ Funciones (argumentos, return)
 se utilizan para agrupar distintos tipos de mecanicas o calculos logicos que ayudan a distribuir mejor las tareas a desarrollar por el programador, 
 en su interior pueden llevar desde suma , restas , comparaciones hasta listas completas
 su estructura se conforma con la palabra reservada 'function' y luego un nombre que tiene que ser representativo sobre lo que hace especificamente 
-y en lo posible lo mas resumido que se pueda , este nombre tiene que tener la primer letra de cada palabra en mayuscula y sin espacios,
+y en lo posible lo mas resumido que se pueda , este nombre tiene que tener la primer palabra en minuscula y las siguientes palabras 
+tienen que empezar con la primer letra en mayuscula y sin espacios (ejemplo: ejemploDeNombreDeFuncion),
 luego entre parentesis () el argumento, osea lo que se va a tomar a evaluar,
 y luego entre llaves {} la logica que se aplicará y debera retornar 
 
 ejemplo:
 
-function ContarNumeros(num1,num2){
+function contarNumeros(num1,num2){
     return num1 + num2;
 }
 
