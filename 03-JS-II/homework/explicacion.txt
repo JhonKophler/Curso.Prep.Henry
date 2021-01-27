@@ -1,0 +1,12 @@
+for
+
+el bucle for lo que realiza es una repeticion del codigo, es decir, 
+que dentro de todo ese bucle que se encuentre dentro del parentesis se repetira hasta acabar con las ordenes dadas,
+eso será de manera medida(avisarle cuantas veces necesitamos repetir)
+
+
+&&, ||, !
+estos son operadores logicos y racionales
+&& : significa que busca que ambas condiciones sean verdaderas para que la respuesta sea verdaderas, significa Y .
+|| : significa que busca que alguna de las condiciones sean verdaderas para ser verdadero.
+! : es una simbolo de negacion, aplicable a simbolos de comparacion
